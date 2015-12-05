@@ -1,0 +1,13 @@
+'use strict';
+
+angular.module(components.<%= data.directiveName %>, [])
+	.directive('<%= data.directiveName %>', function() {
+		return {
+			restrict: 'E',
+			scope: {},
+			templateUrl: 'components/<%= data.directiveName %>/<%= data.directiveName %>.tpl.html',
+			link: function() {
+
+			}
+		};
+	});
