@@ -1,8 +1,10 @@
 /**
  * Created by colinjlacy on 12/4/15.
  */
+'use strict';
+
 module.exports = function() {
-	var done = this.async(),
+	let done = this.async(),
 		questions = [
 			{
 				name: 'directiveName',
